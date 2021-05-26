@@ -1,0 +1,92 @@
+/* tablet layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+
+        .logo {width: 973px;margin: auto;margin-left: 233px;}.menu {width: 585px;margin-left: 0px;margin-right: 88px !important;}.primary_menu ul li a {border: none;padding-left: 0px;}.c_photo { display: none;}.c_form {width: 100%; margin: auto; }
+    
+}
+/* mobile layout */
+@media only screen and (min-width:200px) and (max-width:375px){
+    body {
+        margin-right: -41px;
+    }
+    .logo {
+        width: 200px;
+        margin-left: 80px !important;
+    }
+    .primary_menu ul li a {
+        padding: 0px 4px;
+        border: none;
+    }
+    .menu {
+        width: 484px;
+        margin-right: 0px !important;
+    }
+    #banner {
+        background: linear-gradient(#0000005d,#0000005d) ,url(../img/books-business-computer-459654.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 170px 0px;
+        background-position: center center;
+    }
+    .banner_text h1 {
+        width: 386px;
+    }
+    .banner_text h2 {
+        width: 386px;
+    }
+    #footer p {
+        text-align: center;
+    }
+    .h_menu {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:414px){
+    body {
+        margin-right: -41px;
+    }
+    .logo {
+        width: 200px;
+        margin-left: 109px;
+    }
+    .primary_menu ul li a {
+        padding: 0px 4px;
+        border: none;
+    }
+    .menu {
+        width: 484px;
+        margin-right: 20px !important;
+    }
+    #banner {
+        background: linear-gradient(#0000005d,#0000005d) ,url(../img/books-business-computer-459654.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 170px 0px;
+        background-position: center center;
+    }
+    .banner_text h1 {
+        width: 386px;
+    }
+    .banner_text h2 {
+        width: 386px;
+    }
+    #footer p {
+        text-align: center;
+    }
+    .h_menu {
+        margin-left: -38px;
+    }
+  
+}
+
+@media only screen and (min-width:200px) and (max-width:1187px){
+    .logo {
+        width: 230px;
+    }
+    .menu {
+        float: right;
+        width: 624px;
+    }
+   
+}
