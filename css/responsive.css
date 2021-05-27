@@ -95,8 +95,8 @@
     }
     .logo {
         width: 230px;
-        margin-left: 100px;
-            margin-right:0px;
+        margin-left: 100px !important;
+            margin-right:0px !important;
     }
     .menu {
         width: 624px;
