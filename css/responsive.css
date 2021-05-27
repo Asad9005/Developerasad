@@ -59,7 +59,6 @@
         margin-right: 20px !important;
     }
     #banner {
-        background: linear-gradient(#0000005d,#0000005d) ,url(../img/books-business-computer-459654.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 170px 0px;
@@ -89,4 +88,32 @@
         width: 624px;
     }
    
+}
+@media only screen and (min-width:200px) and (max-width:480px){
+    body {
+        margin-right: -34px;
+    }
+    .logo {
+        width: 230px;
+        margin-left: 121px;
+    }
+    .menu {
+        width: 624px;
+        margin-right: 10px !important;
+    }
+    .banner_text h1 {
+        width: 376px;
+        padding: 0px 0px;
+    }
+    .banner_text h2 {
+        width: 282px;
+        padding: 0px 0px;
+    }
+    #banner {
+        background: linear-gradient(#0000005d,#0000005d) ,url(../img/books-business-computer-459654.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px 0px;
+        background-position: center center;
+    }
 }
