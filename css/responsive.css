@@ -96,6 +96,7 @@
     .logo {
         width: 230px;
         margin-left: 100px;
+            margin-right:0px;
     }
     .menu {
         width: 624px;
